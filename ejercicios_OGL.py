@@ -66,19 +66,11 @@ class Ejercicio3(EjercicioBase):
 class Ejercicio4(EjercicioBase):
     def create_widgets(self):
         super().create_widgets()
-        
-        # Descripción del ejercicio
         tk.Label(self.frame, text="Escriba un algoritmo que lea del teclado un número entero y que compruebe si el número es menor que 10. Si no lo está, debe volver a leer el número repitiendo la operación hasta que el usuario escriba un valor correcto. Finalmente, debe escribir por pantalla el valor leído cuando este sea correcto.").pack(pady=5)
         tk.Label(self.frame, text="Ingrese un número menor que 10:").pack()
-
-        # Entrada del usuario
         self.entry = tk.Entry(self.frame)
         self.entry.pack()
-        
-        # Botón de validación
         tk.Button(self.frame, text="Validar", command=self.validar).pack()
-        
-        # Etiqueta para mostrar el resultado
         self.resultado = tk.Label(self.frame, text="")
         self.resultado.pack()
     

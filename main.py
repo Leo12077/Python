@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Mar  9 22:46:03 2025
-
-@author: manti
-"""
 from ejercicios_OGL  import EjercicioBase, Ejercicio1, Ejercicio2, Ejercicio3, Ejercicio4, Ejercicio5, Ejercicio6, Ejercicio7, Ejercicio8, Ejercicio9, Ejercicio10
 import tkinter as tk
 
